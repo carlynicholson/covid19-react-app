@@ -2,7 +2,7 @@
 
 ## Project Links
 
-- [add your github repo link]()
+- [github repo link](https://github.com/carlynicholson/react-project)
 - [add your deployment link]()
 
 ## Project Description
