@@ -20,7 +20,15 @@ Example sites:
 
 
 ```
-{data: {} }
+import React from "react";
+
+export default function GlobalStats() {
+  fetch("https://thevirustracker.com/free-api?global=stats")
+    .then(res => res.json())
+    .then(res => console.log(res))
+    .catch(err => console.log(err));
+
+  return <div />;
 ```
 
 
