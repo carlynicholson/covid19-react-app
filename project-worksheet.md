@@ -7,11 +7,16 @@
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+For my project, I'll be building out a website containing a tracker for COVID-19-related data (confirmed cases, etc.). 
+
+Example sites:
+1. https://google.org/crisisresponse/covid19-map
+2. https://www.bing.com/covid
+
 
 ## API
 
-Use this section to include info about the API you have chosen and a code snippet of the data that it returns and is required for your project. 
+[Coronavirus Data API](https://thevirustracker.com/api)
 
 
 ```
