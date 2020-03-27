@@ -40,25 +40,9 @@ Using the [Coronavirus Data API](https://thevirustracker.com/api), the below cod
 ```
 
 
-Object {results: Array[1], stat: "ok"}
-results: Array[1]
-0: Object
-total_cases: 558416
-total_recovered: 128754
-total_unresolved: 393120
-total_deaths: 25262
-total_new_cases_today: 26606
-total_new_deaths_today: 1194
-total_active_cases: 404400
-total_serious_cases: 21071
-source: Object
-url: "https://thevirustracker.com/"
-stat: "ok"
-
-
 ## Wireframes
 
-- [US tracker](https://res.cloudinary.com/df6sigxz7/image/upload/v1585277946/covid-tracker/project-worksheet/main.png)
+- [Global tracker](https://res.cloudinary.com/df6sigxz7/image/upload/v1585277946/covid-tracker/project-worksheet/global.png)
 This will be the main page of my application. The table will hold live data, specifically tracking total cases, total recovered, and total deaths. 
 
 
@@ -69,19 +53,19 @@ Total time: 35hr
 ### MVP/PostMVP
 
 #### MVP 
-- Pull in live US data via API
+- Pull in live Global data via API
 	- Total cases
 	- Total recovered
 	- Total deaths
 
 #### PostMVP
 
-- US heatmap
-- [Global tracker](https://res.cloudinary.com/df6sigxz7/image/upload/v1585277946/covid-tracker/project-worksheet/global.png)
+- Global map
+- [US tracker](https://res.cloudinary.com/df6sigxz7/image/upload/v1585277946/covid-tracker/project-worksheet/main.png)
 	- Total cases
 	- Total recovered
 	- Total deaths
-- Global heatmap
+- US map
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
@@ -92,7 +76,8 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | --- | :--- | 
 | App | This will make the initial data pull and include React Router | 
 | Header | This will render the header and include the nav | 
-| US Data | This will render live COVID-19 data for the United States | 
+| Global Data | This will render live global COVID-19 data | 
+| Global Map | This will render live global COVID-19 data on a world map | 
 | About | This component will render information about the app | 
 | Footer | This will render the footer for the app | 
 
@@ -100,9 +85,13 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Working with API | H | 4 hours |   |   |
-| Creating Data Table | H | 3.5 hours |   |   |
-| Total | H | 7.5 hours |   |   |
+| Header | H | 3 hours |   |   |
+| Global Data Table | H | 7 hours |   |   |
+| Global Data Map | H | 8 hours |   |   |
+| Working with API | H | 5 hours |   |   |
+| Footer | M | 1.5 hours |   |   |
+| About | L | 1 hour |   |   |
+| Total |   | 25.5 hours |   |   |
 
 ## Additional Libraries
  [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
