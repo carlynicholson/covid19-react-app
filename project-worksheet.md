@@ -36,9 +36,13 @@ export default function GlobalStats() {
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [add link to your wireframes]()
-- [add link to your react architecture]()
+- [US tracker](https://res.cloudinary.com/df6sigxz7/image/upload/v1585277946/covid-tracker/project-worksheet/main.png)
 
+
+## [Time/Priority Matrix](https://res.cloudinary.com/df6sigxz7/image/upload/v1585278437/covid-tracker/project-worksheet/priority_matrix.png)
+
+
+### MVP/PostMVP
 
 #### MVP 
 - Pull in live US data via API
@@ -46,7 +50,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 #### PostMVP
 
 - Heatmap
-- Global data
+- [Global tracker](https://res.cloudinary.com/df6sigxz7/image/upload/v1585277946/covid-tracker/project-worksheet/global.png)
 - Global heatmap
 
 ## Components
