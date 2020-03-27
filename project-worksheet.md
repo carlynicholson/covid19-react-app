@@ -16,8 +16,7 @@ Example sites:
 
 ## API
 
-[Coronavirus Data API](https://thevirustracker.com/api)
-
+Using the [Coronavirus Data API](https://thevirustracker.com/api), the below data shows currently accumulated statistics from the [Coronavirus Tracker](https://thevirustracker.com/) website. 
 
 ```
 import React from "react";
