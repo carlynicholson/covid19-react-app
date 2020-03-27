@@ -19,17 +19,41 @@ Example sites:
 Using the [Coronavirus Data API](https://thevirustracker.com/api), the below code returns currently accumulated statistics from the [Coronavirus Tracker](https://thevirustracker.com/) website.
 
 ```
-import React from "react";
-
-export default function GlobalData() {
-  fetch("https://thevirustracker.com/free-api?global=stats")
-    .then(res => res.json())
-    .then(res => console.log(res))
-    .catch(err => console.log(err));
-
-  return <div />;
+{
+   "results":[
+      {
+         "total_cases":565970,
+         "total_recovered":129309,
+         "total_unresolved":393120,
+         "total_deaths":25421,
+         "total_new_cases_today":34160,
+         "total_new_deaths_today":1353,
+         "total_active_cases":411240,
+         "total_serious_cases":21381,
+         "source":{
+            "url":"https://thevirustracker.com/"
+         }
+      }
+   ],
+   "stat":"ok"
 }
 ```
+
+
+Object {results: Array[1], stat: "ok"}
+results: Array[1]
+0: Object
+total_cases: 558416
+total_recovered: 128754
+total_unresolved: 393120
+total_deaths: 25262
+total_new_cases_today: 26606
+total_new_deaths_today: 1194
+total_active_cases: 404400
+total_serious_cases: 21071
+source: Object
+url: "https://thevirustracker.com/"
+stat: "ok"
 
 
 ## Wireframes
@@ -85,17 +109,25 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 ## Code Snippet
 
-Using the [Coronavirus Data API](https://thevirustracker.com/api), the below code shows returns accumulated statistics from the [Coronavirus Tracker](https://thevirustracker.com/) website. 
+Using the [Coronavirus Data API](https://thevirustracker.com/api), the below code returns accumulated statistics from the [Coronavirus Tracker](https://thevirustracker.com/) website. 
 
 ```
-import React from "react";
-
-export default function GlobalData() {
-  fetch("https://thevirustracker.com/free-api?global=stats")
-    .then(res => res.json())
-    .then(res => console.log(res))
-    .catch(err => console.log(err));
-
-  return <div />;
+{
+   "results":[
+      {
+         "total_cases":565970,
+         "total_recovered":129309,
+         "total_unresolved":393120,
+         "total_deaths":25421,
+         "total_new_cases_today":34160,
+         "total_new_deaths_today":1353,
+         "total_active_cases":411240,
+         "total_serious_cases":21381,
+         "source":{
+            "url":"https://thevirustracker.com/"
+         }
+      }
+   ],
+   "stat":"ok"
 }
 ```
