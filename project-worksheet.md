@@ -80,6 +80,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
 | Total | H | 6hrs| 5hrs | 5hrs |
 
+| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
 | Working with API | H | 4hrs | -- | -- |
 | Creating Data Table | H | 3.5hrs | -- | -- |
 | Total | H | 7.5hrs| -- | -- |
