@@ -54,6 +54,9 @@ Total time: 35hr
 
 - US heatmap
 - [Global tracker](https://res.cloudinary.com/df6sigxz7/image/upload/v1585277946/covid-tracker/project-worksheet/global.png)
+	- Total cases
+	- Total recovered
+	- Total deaths
 - Global heatmap
 
 ## Components
