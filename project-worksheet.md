@@ -42,7 +42,8 @@ Using the [Coronavirus Data API](https://thevirustracker.com/api), the below cod
 
 ## Wireframes
 
-- [Global tracker](https://res.cloudinary.com/df6sigxz7/image/upload/v1585329950/covid-tracker/project-worksheet/covid-tracker.png)
+[Global tracker](https://res.cloudinary.com/df6sigxz7/image/upload/v1585329950/covid-tracker/project-worksheet/covid-tracker.png)
+
 This will be the main page of my application. The table will hold live data, specifically tracking total cases, total recovered, and total deaths. 
 
 
