@@ -65,12 +65,12 @@ Total time: 35hr
 Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
 
 | Component | Description | 
-| --- | :--- |  
+| --- | :--- | 
 | App | This will make the initial data pull and include React Router | 
 | Header | This will render the header and include the nav | 
 | US Data | This will render live COVID-19 data for the United States | 
+| About | This component will render information about the app | 
 | Footer | This will render the footer for the app | 
-
 
 ##### Time Frames
 
