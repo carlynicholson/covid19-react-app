@@ -1,6 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 2: React
 
-<div align="center">![Wash Your Hands](https://media.giphy.com/media/d7HWDCV6t72iRm9vPh/giphy.gif)</div>
+![Wash Your Hands](https://media.giphy.com/media/d7HWDCV6t72iRm9vPh/giphy.gif)
 
 #### Overview
 
