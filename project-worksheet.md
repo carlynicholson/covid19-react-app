@@ -82,9 +82,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time (Hours) | Time Invetsted (Hours) | Actual Time (Hours) |
 | --- | :---: |  :---: | :---: | :---: |
-| Working with API | H | 4 | -- | -- |
-| Creating Data Table | H | 3.5 | -- | -- |
-| Total | H | 7.5 | -- | -- |
+| Working with API | H | 4 | n/a | n/a |
+| Creating Data Table | H | 3.5 | n/a | n/a |
+| Total | H | 7.5 | n/a | n/a |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
