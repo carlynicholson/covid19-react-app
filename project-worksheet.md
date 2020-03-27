@@ -21,14 +21,16 @@ Example sites:
 
 ```
 import React from "react";
+import "./styles.css";
+import GlobalData from "./Components/GlobalData/GlobalData";
 
-export default function GlobalStats() {
-  fetch("https://thevirustracker.com/free-api?global=stats")
-    .then(res => res.json())
-    .then(res => console.log(res))
-    .catch(err => console.log(err));
-
-  return <div />;
+export default function App() {
+  return (
+    <div className="App">
+      <GlobalData />
+    </div>
+  );
+}
 ```
 
 
@@ -90,12 +92,14 @@ Below is an example of the ability to pull global data for the tracker via the
 
 ```
 import React from "react";
+import "./styles.css";
+import GlobalData from "./Components/GlobalData/GlobalData";
 
-export default function GlobalStats() {
-  fetch("https://thevirustracker.com/free-api?global=stats")
-    .then(res => res.json())
-    .then(res => console.log(res))
-    .catch(err => console.log(err));
-
-  return <div />;
+export default function App() {
+  return (
+    <div className="App">
+      <GlobalData />
+    </div>
+  );
+}
 ```
