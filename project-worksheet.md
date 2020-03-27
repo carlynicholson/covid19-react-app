@@ -16,19 +16,18 @@ Example sites:
 
 ## API
 
-Using the [Coronavirus Data API](https://thevirustracker.com/api), the below data shows currently accumulated statistics from the [Coronavirus Tracker](https://thevirustracker.com/) website. 
+Using the [Coronavirus Data API](https://thevirustracker.com/api), the below code returns currently accumulated statistics from the [Coronavirus Tracker](https://thevirustracker.com/) website.
 
 ```
 import React from "react";
-import "./styles.css";
-import GlobalData from "./Components/GlobalData/GlobalData";
 
-export default function App() {
-  return (
-    <div className="App">
-      <GlobalData />
-    </div>
-  );
+export default function GlobalData() {
+  fetch("https://thevirustracker.com/free-api?global=stats")
+    .then(res => res.json())
+    .then(res => console.log(res))
+    .catch(err => console.log(err));
+
+  return <div />;
 }
 ```
 
@@ -86,19 +85,17 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 ## Code Snippet
 
-Below is an example of the ability to pull global data for the tracker via the 
-[Coronavirus Data API](https://thevirustracker.com/api).
+Using the [Coronavirus Data API](https://thevirustracker.com/api), the below code shows returns accumulated statistics from the [Coronavirus Tracker](https://thevirustracker.com/) website. 
 
 ```
 import React from "react";
-import "./styles.css";
-import GlobalData from "./Components/GlobalData/GlobalData";
 
-export default function App() {
-  return (
-    <div className="App">
-      <GlobalData />
-    </div>
-  );
+export default function GlobalData() {
+  fetch("https://thevirustracker.com/free-api?global=stats")
+    .then(res => res.json())
+    .then(res => console.log(res))
+    .catch(err => console.log(err));
+
+  return <div />;
 }
 ```
