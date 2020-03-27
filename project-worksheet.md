@@ -40,18 +40,14 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 - [add link to your react architecture]()
 
 
-### MVP/PostMVP - 5min
+#### MVP 
+- Pull in live US data via API
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+#### PostMVP
 
-#### MVP EXAMPLE
-- Find and use external api 
-- Render data on page 
-- Allow user to interact with the page
-
-#### PostMVP EXAMPLE
-
-- Add localStorage or firebase for storage
+- Heatmap
+- Global data
+- Global heatmap
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
