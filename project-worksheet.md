@@ -34,9 +34,8 @@ export default function GlobalStats() {
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
-
 - [US tracker](https://res.cloudinary.com/df6sigxz7/image/upload/v1585277946/covid-tracker/project-worksheet/main.png)
+This will be the main page of my application. The table will hold live data, specifically tracking total cases, total recovered, and total deaths. 
 
 
 ## [Time/Priority Matrix](https://res.cloudinary.com/df6sigxz7/image/upload/v1585278437/covid-tracker/project-worksheet/priority_matrix.png)
