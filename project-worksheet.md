@@ -66,9 +66,10 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 | Component | Description | 
 | --- | :---: |  
-| App | This will make the initial data pull and include React Router| 
-| Header | This will render the header include the nav | 
-| Footer | This will render the header include the nav | 
+| App | This will make the initial data pull and include React Router | 
+| Header | This will render the header and include the nav | 
+| US Data | This will render live COVID-19 data for the United States | 
+| Footer | This will render the footer for the app | 
 
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
@@ -78,6 +79,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
 | Total | H | 6hrs| 5hrs | 5hrs |
+
+| Working with API | H | 4hrs | -- | -- |
+| Creating Data Table | H | 3.5hrs | -- | -- |
+| Total | H | 7.5hrs| -- | -- |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
