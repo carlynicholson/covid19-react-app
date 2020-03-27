@@ -72,29 +72,30 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Footer | This will render the footer for the app | 
 
 
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
+##### Time Frames
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
-
-| Component | Priority | Estimated Time (Hours) | Time Invetsted (Hours) | Actual Time (Hours) |
-| --- | :---: |  :---: | :---: | :---: |
-| Working with API | H | 4 |   |   |
-| Creating Data Table | H | 3.5 |   |   |
-| Total | H | 7.5 |   |   |
+| Working with API | H | 4 hours |   |   |
+| Creating Data Table | H | 3.5 hours |   |   |
+| Total | H | 7.5 hours |   |   |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
+Below is an example of the ability to pull global data for the tracker via the 
+[Coronavirus Data API](https://thevirustracker.com/api).
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+import React from "react";
+
+export default function GlobalStats() {
+  fetch("https://thevirustracker.com/free-api?global=stats")
+    .then(res => res.json())
+    .then(res => console.log(res))
+    .catch(err => console.log(err));
+
+  return <div />;
 ```
