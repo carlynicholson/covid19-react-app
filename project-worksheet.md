@@ -49,7 +49,7 @@ This will be the main page of my application. The table will hold live data, spe
 
 ## [Time/Priority Matrix](https://res.cloudinary.com/df6sigxz7/image/upload/v1585278437/covid-tracker/project-worksheet/priority_matrix.png)
 
-Total time: 35hr
+Total time: 25.5 hours
 
 ### MVP/PostMVP
 
