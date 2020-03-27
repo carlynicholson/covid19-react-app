@@ -1,4 +1,7 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 2: React
+
+![Wash Your Hands](https://media.giphy.com/media/d7HWDCV6t72iRm9vPh/giphy.gif)
+
 #### Overview
 
 Let's kick it up a notch and build a modular and modern front end application using React!
