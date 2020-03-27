@@ -81,7 +81,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Total | H | 7.5 hours |   |   |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
+ [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 
 ## Code Snippet
 
