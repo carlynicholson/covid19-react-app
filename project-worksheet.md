@@ -41,6 +41,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 ## [Time/Priority Matrix](https://res.cloudinary.com/df6sigxz7/image/upload/v1585278437/covid-tracker/project-worksheet/priority_matrix.png)
 
+TOTAL TIME: 35hr
 
 ### MVP/PostMVP
 
