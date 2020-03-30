@@ -95,7 +95,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Total |   | 25.5 hours |   |   |
 
 ## Additional Libraries
- [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+ [Ramda](https://ramdajs.com/docs/)
 
 ## Code Snippet
 
