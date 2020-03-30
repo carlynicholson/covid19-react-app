@@ -1,0 +1,16 @@
+.nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  
+  .nav-logo {
+    border: 1px solid green;
+  }
+  
+  .nav-item {
+    border: 1px solid yellow;
+  }

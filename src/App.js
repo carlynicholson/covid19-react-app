@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./styles.css";
+import "./Components/GlobalData/GlobalData.css";
 import Header from "./Components/Header/Header";
 import GlobalMap from "./Components/GlobalMap/GlobalMap";
 import GlobalData from "./Components/GlobalData/GlobalData";
