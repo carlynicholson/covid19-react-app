@@ -10,6 +10,7 @@ const GlobalData = () => {
   fetch("https://thevirustracker.com/free-api?countryTotals=ALL")
     .then(res => res.json())
     .then(data => values(data.countryitems[0]))
+    .then(data => reject(item => !item.title, data))
     .then(data => setGlobalData(reverse(sortBy(prop("total_cases"), data))))
     .catch(err => console.log(err))
 }, [])
