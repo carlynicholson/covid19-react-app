@@ -86,11 +86,11 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Header | H | 3 hours |   |   |
-| Global Data Table | H | 7 hours |   |   |
+| Header | H | 3 hours | 1.5 hours |   |
+| Global Data Table | H | 7 hours | 10 hours |   |
 | Global Data Map | H | 8 hours |   |   |
-| Working with API | H | 5 hours |   |   |
-| Footer | M | 1.5 hours |   |   |
+| Working with API | H | 5 hours | 3 hours |   |
+| Footer | M | 1.5 hours | 0.5 hours |   |
 | About | L | 1 hour |   |   |
 | Total |   | 25.5 hours |   |   |
 
