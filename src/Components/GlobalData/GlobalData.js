@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import {values, isEmpty, map} from "ramda";
+import {values, isEmpty, map, sortBy, prop, reverse, reject} from "ramda";
 //Added Dependency https://github.com/s-yadav/react-number-format
 import NumberFormat from 'react-number-format';
 import "./GlobalData.css";
@@ -9,7 +9,8 @@ const GlobalData = () => {
   useEffect(() => {
   fetch("https://thevirustracker.com/free-api?countryTotals=ALL")
     .then(res => res.json())
-    .then(data => setGlobalData(data))
+    .then(data => values(data.countryitems[0]))
+    .then(data => setGlobalData(reverse(sortBy(prop("total_cases"), data))))
     .catch(err => console.log(err))
 }, [])
 if(!globalData) {
@@ -37,8 +38,7 @@ if(!globalData) {
           <td><NumberFormat value={item.total_recovered} displayType={'text'} thousandSeparator={true} /></td>
           <td><NumberFormat value={item.total_deaths} displayType={'text'} thousandSeparator={true} /></td>
         </tr>
-        
-        ), values(globalData.countryitems[0]))}
+        ), globalData)}
       </React.Fragment>
     )}
     </tbody>
