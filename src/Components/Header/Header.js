@@ -13,7 +13,7 @@ export default function Header() {
       </div>
     </div>
     <div className="header">
-      <h1>COVID-19 Tracker</h1>
+      <h1><a href="/">COVID-19 Tracker</a></h1>
     </div>
     </div>
   );

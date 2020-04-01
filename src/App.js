@@ -1,21 +1,18 @@
 import React from "react";
 
-import "./styles.css";
-import "./Components/GlobalData/GlobalData.css";
 import Header from "./Components/Header/Header";
-import GlobalMap from "./Components/GlobalMap/GlobalMap";
-import GlobalData from "./Components/GlobalData/GlobalData";
+import Main from "./Components/Main";
 import Footer from "./Components/Footer/Footer";
 
-function App() {
+import "./styles.css";
+
+export default function App() {
   return (
     <div>
       <Header />
-      <GlobalMap />
-      <GlobalData />
+      <Main />
       <Footer />
     </div>
   );
 }
 
-export default App;

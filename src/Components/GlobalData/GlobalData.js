@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import {values, isEmpty, map, sortBy, prop, reverse, reject} from "ramda";
 //Added Dependency https://github.com/s-yadav/react-number-format
 import NumberFormat from 'react-number-format';
+import GlobalMap from "../GlobalMap/GlobalMap";
 import "./GlobalData.css";
 
 const GlobalData = () => {
@@ -18,6 +19,8 @@ if(!globalData) {
   return <></>
 } // error check, probably not needed.
   return (
+    <div>
+      <GlobalMap />
 <div className="stats-table">
   <div className="table-header">
   <h2>Statistics</h2>
@@ -44,6 +47,7 @@ if(!globalData) {
     )}
     </tbody>
     </table>
+    </div>
     </div>
 ) 
 }
