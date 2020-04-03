@@ -8,7 +8,7 @@ import "./GlobalData.css";
 const GlobalData = () => {
   const [globalData, setGlobalData] = useState([])
   useEffect(() => {
-  fetch("https://thevirustracker.com/free-api?countryTotals=ALL")
+  fetch("https://api.thevirustracker.com/free-api?countryTotals=ALL")
     .then(res => res.json())
     .then(data => values(data.countryitems[0]))
     .then(data => reject(item => !item.title, data))

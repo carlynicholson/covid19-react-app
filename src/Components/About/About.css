@@ -1,15 +1,47 @@
 .about {
-    padding: 25px;
-  }
-  
-  h3 {
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.5rem;
-  }
-  
-  p {
-    font-size: .875rem;
-    font-weight: 400;
-    line-height: 1.25rem;
-  }
+  padding: 25px;
+  width: 60%;
+  margin-left: 15%;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+p {
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+p > a {
+  color: #843DCC;
+  text-decoration: none;
+}
+
+p > a:hover {
+  color: #843DCC;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.source {
+  font-style: italic;
+  font-size: .75rem;
+  font-weight: 300;
+}
+
+.source > a {
+  color: #843DCC;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.source > a:hover {
+  color: #843DCC;
+  text-decoration: underline;
+  font-style: italic;
+  cursor: pointer;
+}

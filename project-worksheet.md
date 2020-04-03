@@ -16,26 +16,35 @@ Example sites:
 
 ## API
 
-Using the [Coronavirus Data API](https://thevirustracker.com/api), the below code returns currently accumulated statistics from the [Coronavirus Tracker](https://thevirustracker.com/) website.
+Novel Coronavirus (COVID-19) Cases data provided by [JHU CSSE](https://github.com/CSSEGISandData/COVID-19).
+
+Data transformed into a JSON file by [Covid19](https://github.com/pomber/covid19) project. 
+
+The JSON file contains the following Coronavirus data for every country: 
+- Date of recorded data
+- Confirmed cases
+- Deaths
+- Recovered cases
+
+The data is updated three times a day, and recorded daily, beginning January 22, 2020.
+
 
 ```
 {
-   "results":[
+   "US": [
       {
-         "total_cases":565970,
-         "total_recovered":129309,
-         "total_unresolved":393120,
-         "total_deaths":25421,
-         "total_new_cases_today":34160,
-         "total_new_deaths_today":1353,
-         "total_active_cases":411240,
-         "total_serious_cases":21381,
-         "source":{
-            "url":"https://thevirustracker.com/"
-         }
-      }
-   ],
-   "stat":"ok"
+            "date": "2020-1-22",
+            "confirmed": 1,
+            "deaths": 0,
+            "recovered": 0
+      },
+      {
+            "date": "2020-1-23",
+            "confirmed": 1,
+            "deaths": 0,
+            "recovered": 0
+      },
+      ]
 }
 ```
 
