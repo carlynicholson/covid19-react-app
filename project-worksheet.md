@@ -16,6 +16,8 @@ Example sites:
 
 ## API
 
+### Global Map Data
+
 Novel Coronavirus (COVID-19) Cases data provided by [JHU CSSE](https://github.com/CSSEGISandData/COVID-19).
 
 Data transformed into a JSON file by [Covid19](https://github.com/pomber/covid19) project. 
@@ -28,24 +30,32 @@ The JSON file contains the following Coronavirus data for every country:
 
 The data is updated three times a day, and recorded daily, beginning January 22, 2020.
 
+### Global Table Data
+
+[Country Flags](https://www.countryflags.io/)
+
+Using the [Coronavirus Data API](https://thevirustracker.com/api), the below code returns accumulated statistics from the [Coronavirus Tracker](https://thevirustracker.com/) website. 
 
 ```
-{
-   "US": [
+"countryitems":[
       {
-            "date": "2020-1-22",
-            "confirmed": 1,
-            "deaths": 0,
-            "recovered": 0
-      },
-      {
-            "date": "2020-1-23",
-            "confirmed": 1,
-            "deaths": 0,
-            "recovered": 0
-      },
-      ]
-}
+         "1":{
+            "ourid":1,
+            "title":"Afghanistan",
+            "code":"AF",
+            "source":"https://thevirustracker.com/afghanistan-coronavirus-information-af",
+            "total_cases":94,
+            "total_recovered":2,
+            "total_unresolved":0,
+            "total_deaths":4,
+            "total_new_cases_today":0,
+            "total_new_deaths_today":0,
+            "total_active_cases":88,
+            "total_serious_cases":0
+         },
+         "stat":"ok"
+      }
+   ]
 ```
 
 
@@ -78,9 +88,6 @@ Estimated time: 25.5 hours
 - US map
 
 ## Components
-##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
-
-Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
 
 | Component | Description | 
 | --- | :--- | 
@@ -111,22 +118,23 @@ Based on the initial logic defined in the previous sections try and breakdown th
 Using the [Coronavirus Data API](https://thevirustracker.com/api), the below code returns accumulated statistics from the [Coronavirus Tracker](https://thevirustracker.com/) website. 
 
 ```
-{
-   "results":[
+"countryitems":[
       {
-         "total_cases":565970,
-         "total_recovered":129309,
-         "total_unresolved":393120,
-         "total_deaths":25421,
-         "total_new_cases_today":34160,
-         "total_new_deaths_today":1353,
-         "total_active_cases":411240,
-         "total_serious_cases":21381,
-         "source":{
-            "url":"https://thevirustracker.com/"
-         }
+         "1":{
+            "ourid":1,
+            "title":"Afghanistan",
+            "code":"AF",
+            "source":"https://thevirustracker.com/afghanistan-coronavirus-information-af",
+            "total_cases":94,
+            "total_recovered":2,
+            "total_unresolved":0,
+            "total_deaths":4,
+            "total_new_cases_today":0,
+            "total_new_deaths_today":0,
+            "total_active_cases":88,
+            "total_serious_cases":0
+         },
+         "stat":"ok"
       }
-   ],
-   "stat":"ok"
-}
+   ]
 ```
