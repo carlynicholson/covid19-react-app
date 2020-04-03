@@ -3,7 +3,7 @@
 ## Project Links
 
 - [github repo link](https://github.com/carlynicholson/react-project)
-- [add your deployment link](https://novel-covid19.netlify.com/)
+- [deployment link](https://novel-covid19.netlify.com/)
 
 ## Project Description
 
