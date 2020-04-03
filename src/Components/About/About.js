@@ -4,7 +4,8 @@ import "./About.css";
 
 export default function About() {
   return (
-    <div className="about">
+    <div className="about-container">
+    <div className="about-block">
       <h2>About the data</h2>
       <h3>It changes rapidly</h3>
       <p>This data changes rapidly, so what’s shown may be out of date. Table totals may not always represent an accurate sum. 
@@ -15,6 +16,7 @@ export default function About() {
      <div className="source">
        <p><a href="https://google.com/covid19-map/">Source</a></p>
     </div>   
+    </div>
     </div>
   );
 }

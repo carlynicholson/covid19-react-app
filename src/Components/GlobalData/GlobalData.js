@@ -36,7 +36,8 @@ if(!globalData) {
       <React.Fragment>
         {map((item, i) => (
         <tr className="table-data" key={i}>
-          <td className="location">{item.title}</td>
+          <td className="location">{item.code !== 'DP' ? <img src={`https://www.countryflags.io/${item.code}/flat/24.png`} alt="Country Flag"/>
+           : <img src="https://www.countryflags.io/GB/flat/24.png" alt="Country Flag"/>}&nbsp;&nbsp;{item.title}</td>
           <td><NumberFormat value={item.total_cases} displayType={'text'} thousandSeparator={true} /></td>
           <td><NumberFormat value={item.total_recovered} displayType={'text'} thousandSeparator={true} /></td>
           <td><NumberFormat value={item.total_deaths} displayType={'text'} thousandSeparator={true} /></td>

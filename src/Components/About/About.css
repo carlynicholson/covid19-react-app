@@ -1,7 +1,18 @@
-.about {
+main > .about-container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-block {
   padding: 25px;
-  width: 60%;
-  margin-left: 15%;
+  width: 100%;
+  max-width: 680px;
+  background-color: white;
+  height: 100%;
+  margin: 0 auto;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 h3 {

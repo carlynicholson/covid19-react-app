@@ -1,6 +1,5 @@
 table {
     width: 100%;
-    
   }
 
   h2 {
@@ -17,6 +16,8 @@ table {
 
   .location {
     text-align: left;
+    display: flex;
+    align-items: center;
   }
 
   .location-header {
