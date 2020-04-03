@@ -31,9 +31,9 @@ import "./GlobalMap.css";
         let countryCodeStats = {}
         const countryCodesArr = countryCodes.map( country => {
           if(country.stats !== undefined) {
-            countryCodeStats[country.code] = country.stats.confirmed
+            return countryCodeStats[country.code] = country.stats.confirmed
           } else {
-            countryCodeStats[country.code] = 0
+            return countryCodeStats[country.code] = 0
           }
         })
         setCountryCodeObj(countryCodeStats)
