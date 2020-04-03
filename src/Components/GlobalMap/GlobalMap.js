@@ -5,12 +5,12 @@ import "./GlobalMap.css";
 
 
   const handleClick = (e, countryCode) => {
-    //setCountryCode(countryCode)
+    
     console.log(countryCode);
   };
 
   const GlobalMap = () => {
-    // const [countries, setCountries] = useState({});
+
     const [countryCodeStateObj,setCountryCodeObj] = useState({})
 
     useEffect(() => {
@@ -18,7 +18,7 @@ import "./GlobalMap.css";
         const res = await fetch(
           'https://pomber.github.io/covid19/timeseries.json'
         );
-      // Below code maps over fetched data
+
        const json = await res.json();
         const countryCodes = getData().map(d => {
           if (json[d.name]) {
@@ -26,10 +26,7 @@ import "./GlobalMap.css";
           }
           return d;
         });
-        // console.log('useEffect - countryCodes', countryCodes);
-  
-        // console.log('useEffect - json', json);
-        // console.log('useEffect - getData()', getData()); //gets an array of all countries names &
+
         
         let countryCodeStats = {}
         const countryCodesArr = countryCodes.map( country => {
@@ -40,7 +37,6 @@ import "./GlobalMap.css";
           }
         })
         setCountryCodeObj(countryCodeStats)
-        // console.log('useEffect = countryCodeStats', countryCodeStats)
         
       };
       makeAPICall();
@@ -54,15 +50,12 @@ import "./GlobalMap.css";
         map={"world_mill"}
         backgroundColor="transparent"
         zoomOnScroll={false}
-        onRegionClick={handleClick} //grabs the country code
+        onRegionClick={handleClick}
         containerClassName="map"
         regionStyle={{
           initial: {
             fill: "#e4e4e4",
             "fill-opacity": 0.9,
-            // make initial fill a variable
-            // each country different fill color
-            // map over region style
             stroke: "none",
             "stroke-width": 0,
             "stroke-opacity": 0,
@@ -73,7 +66,7 @@ import "./GlobalMap.css";
             cursor: "pointer"
           },
           selected: {
-            fill: "#none", //color for the clicked country
+            fill: "#none",
             stroke: "#212121",
             "stroke-width": 1,
           },
@@ -85,8 +78,8 @@ import "./GlobalMap.css";
         series={{
           regions: [
             {
-            values: countryCodeStateObj,
-              scale: ["#E5D1F9", "#5606A5"], //your color game's here
+              values: countryCodeStateObj,
+              scale: ["#E5D1F9", "#5606A5"],
               normalizeFunction: "polynomial"
             }
           ]

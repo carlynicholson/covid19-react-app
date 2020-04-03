@@ -13,7 +13,7 @@ export default function About() {
       <p>Confirmed cases aren’t all cases. They only include people who tested positive. 
         Testing rules and availability vary by country.</p>
      <div className="source">
-       <p><em><a href="https://google.com/covid19-map/">Source</a></em></p>
+       <p><a href="https://google.com/covid19-map/">Source</a></p>
     </div>   
     </div>
   );
