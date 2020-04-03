@@ -18,8 +18,7 @@
 
 .jvectormap-container {
   height: 550px;
-  padding-left: 25px;
-  padding-right: 25px;
+  
 }
 
 .map {
@@ -42,7 +41,7 @@ svg {
   letter-spacing: .025em;
 }
 
-.wrapper {
+.legend {
   width: 50%;
   max-width: 274px;
   overflow: scroll;
@@ -76,7 +75,7 @@ svg {
   background-color: #5606A5;
 }
 
-.data {
+.scale {
   font-size: 0.7em;
   text-align: center;
   color: #5f6368;

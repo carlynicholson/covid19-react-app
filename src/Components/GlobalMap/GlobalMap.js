@@ -86,18 +86,18 @@ import "./GlobalMap.css";
         }}
       />
     <div className="legend-title">Confirmed cases</div>
-    <div class="wrapper">
+    <div class="legend">
       <div className="level-1"></div>
       <div className="level-2"></div>
       <div className="level-3"></div>
       <div className="level-4"></div>
       <div className="level-5"></div>
       
-      <div className="data">0 - 49</div>
-      <div className="data">50 - 199</div>
-      <div className="data">200 - 499</div>
-      <div className="data">500 - 999 </div>
-      <div className="data">1,000 +</div>
+      <div className="scale">0 - 49</div>
+      <div className="scale">50 - 199</div>
+      <div className="scale">200 - 499</div>
+      <div className="scale">500 - 999 </div>
+      <div className="scale">1,000 +</div>
     </div>
     </div>
     </div>
