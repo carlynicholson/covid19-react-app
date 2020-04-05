@@ -22,27 +22,32 @@ We will evaluate your project according to the following criteria:
 
 - **Code Quality:** Is the code well formatted? Is the code easy to read and
   understand? Does the code follow best practices?  
+    
   *Self-Evaluation Score: 2*  
-The application's code is broken into easy-to-navigate components and placed in their clearly labeled, respective folders. Code is free of comments and console logs.  
+  The application's code is broken into easy-to-navigate components and placed in their clearly labeled, respective folders. Code is free of comments and console logs.  
 
 - **Technical Requirements:** How does the project stack up to the requirements
   for this project? Is the developer making use of the material we've covered in
   a way that makes sense?  
+    
   *Self-Evaluation Score: 2*  
-The project meets the technical requirements as stated in the [project outline](https://git.generalassemb.ly/SEIR-224/seir-224-project-2/blob/master/readme.md).  
+  The project meets the technical requirements as stated in the [project outline](https://git.generalassemb.ly/SEIR-224/seir-224-project-2/blob/master/readme.md).  
 
 - **Creativity & Interface:** Is the application easy to navigate? Does it work
   well in every major browser? Is it responsive? Does it incorporate modern UI
   Themes?  
+    
   *Self-Evaluation Score: 2*  
 
 - **Functionality:** Does the application work without errors or bugs? Does it
   present a complete app, where every feature is fully implemented in a way that
   makes sense?  
+    
   *Self-Evaluation Score: 2*  
 
 - **Presentation:** Is there adequate documentation? Is the repository well
   organized and free of clutter?  
+    
   *Self-Evaluation Score: 3*  
 
 
