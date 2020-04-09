@@ -85,7 +85,7 @@ import "./GlobalMap.css";
           ]
         }}
       />
-    <div className="legend-title">Confirmed cases</div>
+    <div className="legend-title">Confirmed cases (thousands)</div>
     <div class="legend">
       <div className="level-1"></div>
       <div className="level-2"></div>
@@ -93,10 +93,10 @@ import "./GlobalMap.css";
       <div className="level-4"></div>
       <div className="level-5"></div>
       
-      <div className="scale">0 - 49</div>
-      <div className="scale">50 - 199</div>
-      <div className="scale">200 - 499</div>
-      <div className="scale">500 - 999 </div>
+      <div className="scale">0 - 24</div>
+      <div className="scale">25 - 49</div>
+      <div className="scale">50 - 74</div>
+      <div className="scale">75 - 999 </div>
       <div className="scale">1,000 +</div>
     </div>
     </div>
