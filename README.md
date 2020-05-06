@@ -47,12 +47,9 @@ The data is updated three times a day, and recorded daily, beginning January 22,
  [Ramda](https://ramdajs.com/docs/)
 
 ## Future Plans
-- Add flag icons to Statistics table
 - [US tracker](https://res.cloudinary.com/df6sigxz7/image/upload/v1585277946/covid-tracker/project-worksheet/main.png)
 	- Total cases
 	- Total recovered
 	- Total deaths
 - US map
-
-## Known Issues
 
